@@ -1,0 +1,56 @@
+html, body {
+    font-size: 16px;
+    height: 100%;
+    font-family: "Arial", "Helvetica Neue", sans-serif;
+}
+.main-section {
+    width: 800px;
+    margin: 50px auto;
+}
+.main-section h2 {
+     border-bottom: 1px dotted #ccc;
+}
+.Dropdown-root {
+    width: 300px;
+}
+.dropdown-container {
+    display: flex;
+}
+.spinner {
+    display: flex;
+    justify-content: center;
+}
+.spinner-main {
+    height: 450px;
+}
+.country-dropdown {
+    margin-left: 20px;
+}
+.dropdown ul {
+    padding: 0 0 0 15px;
+    margin: 0;
+    min-height: 100px;
+    max-height: 200px;
+    overflow: auto;
+}
+.dropdown li {
+    list-style: none;
+    padding: 3px;
+    border-bottom: 1px dotted #ccc;
+}
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+}
+.dropdown li a:hover {
+    color: #666;
+}
+.info-container {
+    display: flex;
+}
+.info-flag {
+    margin-right: 50px;
+}
+.main-info-list > p:first-child {
+    margin-top: 0;
+}
