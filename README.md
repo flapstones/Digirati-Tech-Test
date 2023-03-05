@@ -1,14 +1,15 @@
 # David Johnson Digirati Tech Test
 
-First of download the code and then run
+First of all download the code and cd into the project folder and then run
 
 ### `npm install`
 
-In the project directory, you can run:
+You can then run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+This runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
