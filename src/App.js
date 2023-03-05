@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useEffect, useState} from 'react';
-import DropDown from 'react-a11y-dropdown'
+import DropDown from 'react-a11y-dropdown';
 import axios from 'axios';
 import 'react-dropdown/style.css';
 import DisplayCountry from "./Components/DisplayCountry";
