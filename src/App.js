@@ -98,7 +98,7 @@ const App = () => {
                     </DropDown>
                 }
             </div>
-            {countryInfo ? <DisplayCountry countryInfo={countryInfo} /> : (isLoading ? <div className="spinner spinner-main">
+            {countryInfo && !isLoading ? <DisplayCountry countryInfo={countryInfo} /> : (isLoading ? <div className="spinner spinner-main">
                 <SpinnerCircular size={200} thickness={100} speed={100} color="rgba(57, 172, 148, 1)" secondaryColor="rgba(0, 0, 0, 0.2)" />
             </div> : '')}
         </div>
