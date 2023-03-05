@@ -6,7 +6,7 @@ const DisplayCountry = ({countryInfo}) => {
 	const getNativeNames = Object.values(Object.values(countryInfo.name.nativeName)[0]);
 
 	return (
-		<div className="main-section">
+		<section className="info-section">
 			<h2>{`${countryInfo.name.common} - ${countryInfo.flag}`}</h2>
 			<div className="info-container">
 				<div className="info-flag">
@@ -19,8 +19,7 @@ const DisplayCountry = ({countryInfo}) => {
 					<p className={'info-row'}><b>Population density:</b> {Math.round(countryInfo.population / countryInfo.area)}</p>
 				</div>
 			</div>
-
-		</div>
+		</section>
 	);
 }
 

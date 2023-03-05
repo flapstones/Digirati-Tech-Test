@@ -16,6 +16,9 @@ html, body {
 .dropdown-container {
     display: flex;
 }
+.dropdown-container > .dropdown > button {
+    width: 270px;
+}
 .spinner {
     display: flex;
     justify-content: center;
@@ -32,15 +35,20 @@ html, body {
     min-height: 100px;
     max-height: 200px;
     overflow: auto;
+    width: 250px;
 }
 .dropdown li {
     list-style: none;
-    padding: 3px;
-    border-bottom: 1px dotted #ccc;
 }
 .dropdown li a {
     text-decoration: none;
     color: #333;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+    display: block;
+}
+.dropdown li:last-child a {
+    border-bottom: none;
 }
 .dropdown li a:hover {
     color: #666;
