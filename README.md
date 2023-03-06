@@ -1,5 +1,7 @@
 # David Johnson Digirati Tech Test
 
+I have used 'react-a11y-dropdown' to make the dropdowns fully keyboard accessible.
+
 First of all download the code and cd into the project folder and then run
 
 ### `npm install`
